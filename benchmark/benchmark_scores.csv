@@ -1,1 +1,9 @@
-
+case,system,factual_grounding,actionability,clarity_exec_readiness,risk_confidentiality,time_saved,average_score,worst_failure_note
+Case A (Stack Overflow 2024 - Standard),baseline,5,3,3,3,2,3.2,Generic action plan with limited specificity/ownership.
+Case A (Stack Overflow 2024 - Standard),agentic,5,5,4,5,5,4.8,No major failure; monitor sensitivity to sparse or contradictory data.
+Case B (Stack Overflow 2024 - Edge),baseline,5,3,3,3,2,3.2,Generic action plan with limited specificity/ownership.
+Case B (Stack Overflow 2024 - Edge),agentic,5,5,4,5,5,4.8,No major failure; monitor sensitivity to sparse or contradictory data.
+Case C (Engagement Standard),baseline,5,3,3,3,2,3.2,Generic action plan with limited specificity/ownership.
+Case C (Engagement Standard),agentic,5,5,4,5,5,4.8,No major failure; monitor sensitivity to sparse or contradictory data.
+Case D (Engagement Edge/Ambiguous),baseline,5,3,3,3,2,3.2,Generic action plan with limited specificity/ownership.
+Case D (Engagement Edge/Ambiguous),agentic,5,5,4,5,5,4.8,No major failure; monitor sensitivity to sparse or contradictory data.
