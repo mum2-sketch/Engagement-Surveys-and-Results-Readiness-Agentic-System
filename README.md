@@ -23,14 +23,8 @@ A four-skill workflow that turns messy survey inputs (participation, driver scor
 - Example: `python agentic_runner.py --input runs/run1_input.md --audience "HR leadership" --output runs/run1_output.md`
 - Output file includes baseline single-shot and all skill outputs for scoring.
 
-## Prompt iteration (document in your PDF)
-Example meaningful change to log: in **Theme Extraction**, add the constraint “Never use causal language unless explicit evidence exists; otherwise say ‘may be associated.’” Capture before/after snippets and impact on safety.
-
 ## Benchmarking (see benchmark/)
 - Cases A (standard) and B (edge) provided; add Case C (ambiguous) if time permits.
 - Baseline: single-shot prompt without skills.
 - Score on 5 metrics (factual grounding, actionability, clarity, safety, time saved) using 1–5 anchors.
 - Record scores in benchmark/benchmark_scores.csv and note worst failure.
-
-## Bonus MCP idea
-Add a lightweight MCP that fetches survey policy JSON (thresholds, suppression rules, cycle dates) so skills don’t rely on manual pasting. Keep it optional but functional for the +1 point.
